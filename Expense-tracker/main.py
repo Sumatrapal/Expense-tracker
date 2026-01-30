@@ -127,7 +127,6 @@ def bar_chart():
         (username,)
     )
     data = cur.fetchall()
-
     if not data:
         messagebox.showinfo("Info", "No data available")
         return
